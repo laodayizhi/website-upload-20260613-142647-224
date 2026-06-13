@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>影片搜索-国产电影大全</title>
+    <meta name="description" content="国产电影大全全站搜索页面，可按影片标题、地区、类型、年份、标签搜索并进入独立详情页。" />
+    <meta name="keywords" content="影片搜索,全站搜索,免费观看国产电影大全_热门资源高清播放_一区二区影视盘点,国产,视频,免费,在线观看,高清,影视大全" />
+    <meta name="renderer" content="webkit" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="国产电影大全">
+            <span class="brand-mark">影</span>
+            <span class="brand-text">
+                <strong>国产电影大全</strong>
+                <small>高清播放 · 热门资源</small>
+            </span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="index.html">首页</a>
+            <a href="categories.html">分类总览</a>
+            <a href="ranking.html">热播榜</a>
+            <a href="category-domestic-hot.html">国产热映</a>
+<a href="category-hk-tw.html">港台佳作</a>
+<a href="category-japan-korea.html">日韩精选</a>
+<a href="category-western.html">欧美片库</a>
+<a href="category-action-crime.html">动作犯罪</a>
+            <a href="search.html">搜索</a>
+        </nav>
+        <form class="header-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片、类型、地区" aria-label="搜索影片" />
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-label="展开导航">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类总览</a>
+        <a href="ranking.html">热播榜</a>
+        <a href="category-domestic-hot.html">国产热映</a>
+<a href="category-hk-tw.html">港台佳作</a>
+<a href="category-japan-korea.html">日韩精选</a>
+<a href="category-western.html">欧美片库</a>
+<a href="category-action-crime.html">动作犯罪</a>
+<a href="category-comedy-romance.html">喜剧爱情</a>
+<a href="category-suspense-thriller.html">悬疑惊悚</a>
+<a href="category-sci-fi-fantasy.html">科幻奇幻</a>
+<a href="category-animation-youth.html">动画青春</a>
+<a href="category-classic-theater.html">经典剧场</a>
+        <a href="search.html">搜索</a>
+    </div>
+</header>
+<main>
+
+<section class="page-hero small-hero">
+    <div>
+        <span class="eyebrow">全站搜索</span>
+        <h1>搜索影片</h1>
+        <p>输入影片名、地区、年份、类型或标签，可快速进入对应详情页。</p>
+    </div>
+</section>
+<section class="content-section">
+    <form class="search-page-form" data-search-page-form>
+        <input type="search" name="q" placeholder="输入关键词，例如 动作、2026、中国大陆" autocomplete="off" />
+        <button type="submit">搜索</button>
+    </form>
+    <div class="search-summary" data-search-summary>请输入关键词开始搜索</div>
+    <div class="movie-grid" data-search-results></div>
+</section>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <a class="brand brand-dark" href="index.html">
+                <span class="brand-mark">影</span>
+                <span class="brand-text">
+                    <strong>国产电影大全</strong>
+                    <small>高清播放 · 热门资源</small>
+                </span>
+            </a>
+            <p>精选影片、剧集、动画与类型佳作，支持分类浏览、热播榜单和站内搜索。</p>
+        </div>
+        <div class="footer-links">
+            <h2>分类导航</h2>
+            <div>
+                <a href="category-domestic-hot.html">国产热映</a>
+<a href="category-hk-tw.html">港台佳作</a>
+<a href="category-japan-korea.html">日韩精选</a>
+<a href="category-western.html">欧美片库</a>
+<a href="category-action-crime.html">动作犯罪</a>
+<a href="category-comedy-romance.html">喜剧爱情</a>
+<a href="category-suspense-thriller.html">悬疑惊悚</a>
+<a href="category-sci-fi-fantasy.html">科幻奇幻</a>
+<a href="category-animation-youth.html">动画青春</a>
+<a href="category-classic-theater.html">经典剧场</a>
+            </div>
+        </div>
+        <div class="footer-links">
+            <h2>快速入口</h2>
+            <div>
+                <a href="ranking.html">热播榜入口</a>
+                <a href="categories.html">全部分类</a>
+                <a href="search.html">影片搜索</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="assets/search-data.js" defer></script>
+<script src="assets/site.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
